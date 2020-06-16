@@ -14,6 +14,15 @@ Demo para crear un Cluster de Kubernetes en GCP usando el servicio de GKE.
 - **gke:** Se usa el módulo de kubernetes engine del provider de GCP.
 - **nginx-ingress:** Se usa el provider de Helm para para instalar el chart de nginx.
 
+## Acciones Makefile
+
+- **init:** Inicializa Terraform
+- **validate:** Valida .tfs
+- **plan:** Ejecuta plan de Terraform
+- **apply:** Aplica plan de Terraform
+- **destroy:** Planifica y elimina.
+- **output:** Muestra el Outout configurado
+
 ## Configuración
 
 Los siguientes parámetros son los que se pueden usar en el flujo.

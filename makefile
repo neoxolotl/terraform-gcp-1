@@ -23,7 +23,3 @@ destroy:
 output:
 	@echo "Output step"
 	@bash scripts/terraform.sh terraform_output
-
-deploy-app:
-	@echo "Deploy APP step"
-	@bash scripts/deployapp.sh
